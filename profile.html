@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">Welcome, <span id="username"></span></h2>
+                <p class="card-text">Additional Details:</p>
+                <form id="profileForm">
+                    <div class="form-group">
+                        <input type="text" id="age" class="form-control" placeholder="Age">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="dob" class="form-control" placeholder="Date of Birth">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="contact" class="form-control" placeholder="Contact">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Update</button>
+                </form>
+                <br>
+                <a href="#" id="logout" class="card-link">Logout</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
